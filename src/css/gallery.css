@@ -1,0 +1,38 @@
+
+.gallery {
+    height: 100vh;
+    margin: 0;
+    padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  row-gap: auto;
+  }
+
+    .gallery-link {
+      display: block;
+      width: 310px;
+    }
+    .gallery-link :hover {
+        width: 302px;
+        cursor: zoom-in;
+        transform: scale(1.04);
+      }
+      
+      .gallery-image {
+        width: 100%;
+      }
+      .sl-overlay {
+background: #2e2f42 !important;
+      }
+
+.sl-next,
+.sl-prev,
+.sl-close,
+.sl-counter {
+  color: #fff !important;
+}
+
+
